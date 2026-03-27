@@ -70,7 +70,7 @@ const translations = {
         "hero_btn_explore": "Baaro Adeegyada",
         "hero_btn_book": "La Hadal Usama Khadar (WhatsApp)",
         "badge_text": "Heer Sareynta Waxbarashada",
-        "about_top": "WAA AYAAN NAHAY",
+        "about_top": "WAXAAN NAHAY",
         "about_title": "Daryeelayaasha Riyada Waxbarashada.",
         "about_p1": "Hilaal Education Consultancy oo uu aasaasay Usama Khadar, waa wakaalad iyo lataliyayaal (Consultancy) xirfad sare leh oo u adeega ardayda da' kasta leh: laga soo bilaabo carruurta iskuullada illaa heerka Post-grad.",
         "about_p2": "Anagoo ah lataliyayaashaada rasmiga ah, kuma ekaanayno diiwaan-gelin (placement) uun, balse waxaan dammaanad qaadaynaa in arday kasta meesha uu aadayo ay la jaan-qaadayso awoodiisa maskaxeed (Intellectual DNA) ee hiigsigiisa.",
