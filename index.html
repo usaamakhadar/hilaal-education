@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hilaal Education Consultancy - Your Gateway to Global Excellence</title>
+    <meta name="description" content="Waxaan nahay buundada isku xirta ardayda iyo iskuullada caalamiga ah ee ugu fiican.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-moon moon-icon"></i>
+                    <i class="fa-solid fa-graduation-cap cap-icon"></i>
+                </div>
+                <span class="logo-text">HILAAL <span>Education</span></span>
+            </a>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active" data-i18n="nav_home">Home</a></li>
+                    <li><a href="#about" class="nav-link" data-i18n="nav_about">About Us</a></li>
+                    <li><a href="#services" class="nav-link" data-i18n="nav_services">Services</a></li>
+                    <li><a href="#contact" class="nav-link btn-primary nav-btn" data-i18n="nav_contact">Contact Us</a></li>
+                    <li>
+                        <div class="lang-switcher">
+                            <i class="fa-solid fa-globe"></i>
+                            <select id="lang-select">
+                                <option value="so">Somali</option>
+                                <option value="en">English</option>
+                                <option value="ar">العربية</option>
+                                <option value="fr">Français</option>
+                            </select>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h2 class="hero-subtitle" data-i18n="hero_subtitle">Welcome to Hilaal Education Consultancy</h2>
+                <h1 class="hero-title"><span data-i18n="hero_title_1">Your Gateway to</span> <br> <span class="gold-text" data-i18n="hero_title_2">Global Excellence</span></h1>
+                <p class="hero-description" data-i18n="hero_desc">We navigate your path to global prestige with expert guidance, strategic institutional connections, and seamless administrative support. Start your journey today.</p>
+                <div class="hero-actions">
+                    <a href="#services" class="btn-primary" data-i18n="hero_btn_explore">Explore Services</a>
+                    <a href="#contact" class="btn-secondary" data-i18n="hero_btn_book">Book a Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-container">
+            <div class="about-image-wrapper">
+                <img src="assets/images/student_collaboration.png" alt="Students studying together" class="about-image">
+                <div class="experience-badge">
+                    <i class="fa-solid fa-globe"></i>
+                    <span data-i18n="badge_text">Connecting students worldwide</span>
+                </div>
+            </div>
+            <div class="about-content">
+                <h4 class="section-top-title" data-i18n="about_top">WHO WE ARE</h4>
+                <h2 class="section-title" data-i18n="about_title">The Academic Curator of Dreams.</h2>
+                <p class="about-text" data-i18n="about_p1">
+                    At Hilaal Education Consultancy, founded by <strong>Usama Khadar</strong>, an expert Education Consultant, we view international education not just as a placement service, but as a meticulously curated journey.
+                </p>
+                <p class="about-text" data-i18n="about_p2">
+                    We specialize in navigating the intricate landscapes of international admissions, ensuring that every student we represent finds a path that aligns with their unique intellectual DNA and professional aspirations.
+                </p>
+                <ul class="about-features">
+                    <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="about_feat1">Personalized Guidance</span></li>
+                    <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="about_feat2">Global Network of Top Schools</span></li>
+                    <li><i class="fa-solid fa-check-circle"></i> <span data-i18n="about_feat3">Dedicated Success Support</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h4 class="section-top-title" data-i18n="services_top">OUR EXPERTISE</h4>
+                <h2 class="section-title" data-i18n="services_title">Professional Academic Curation</h2>
+                <p class="section-subtitle" data-i18n="services_sub">We provide a comprehensive suite of services designed to make your dream of studying abroad a seamless reality.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card dark-card">
+                    <div class="service-icon"><i class="fa-solid fa-users"></i></div>
+                    <h3 class="service-title" data-i18n="srv_recruit_title">Student Recruitment</h3>
+                    <p class="service-desc" data-i18n="srv_recruit_desc">Connecting exceptional talent with world-class institutions. We facilitate the synergy between high-potential students and leading global campuses.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card light-card">
+                    <div class="service-icon"><i class="fa-solid fa-university"></i></div>
+                    <h3 class="service-title" data-i18n="srv_place_title">School Placement</h3>
+                    <p class="service-desc" data-i18n="srv_place_desc">Bespoke guidance for entry into top-tier global universities. We curate a strategic roadmap tailored to your academic profile.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card mixed-card">
+                    <div class="service-icon glass-icon"><i class="fa-solid fa-passport"></i></div>
+                    <h3 class="service-title" data-i18n="srv_visa_title">Visa Guidance</h3>
+                    <p class="service-desc" data-i18n="srv_visa_desc">Seamless processing of all documentation. We provide expert advice to navigate the complex visa application procedures successfully.</p>
+                </div>
+            </div>
+            
+            <div class="visa-feature">
+                <div class="visa-content">
+                    <h3 data-i18n="visa_box_title">Hassle-free Visa Processing</h3>
+                    <p data-i18n="visa_box_desc">With our expert team, navigating immigration requirements becomes a simple, straightforward step in your journey.</p>
+                </div>
+                <div class="visa-image">
+                    <img src="assets/images/visa_concept.png" alt="Visa and Passport Concept">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container contact-container">
+            <div class="contact-info-wrapper">
+                <h4 class="section-top-title gold-text" data-i18n="contact_top">GET IN TOUCH</h4>
+                <h2 class="section-title text-white" data-i18n="contact_title">Start Your Global Academic Journey Today</h2>
+                <p class="contact-subtitle" data-i18n="contact_sub">Reach out to our lead advisor, Usama Khadar, for a personalized consultation.</p>
+                
+                <div class="contact-methods">
+                    <div class="contact-item">
+                        <div class="contact-icon bg-whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label" data-i18n="contact_lbl_whatsapp">WhatsApp Us</span>
+                            <a href="https://wa.me/601162355194" target="_blank" class="contact-value">+60 11 6235 5194</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon bg-email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label" data-i18n="contact_lbl_email">Email Us</span>
+                            <a href="mailto:muscabkhadar69@gmail.com" class="contact-value">muscabkhadar69@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon bg-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label" data-i18n="contact_lbl_global">Global Service</span>
+                            <span class="contact-value" data-i18n="contact_val_global">Consulting Online & Worldwide</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <h3 class="form-title" data-i18n="form_title">Send us a Message</h3>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name" data-i18n="form_name">Full Name</label>
+                        <input type="text" id="name" data-i18n-placeholder="form_name_ph" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-i18n="form_email">Email Address</label>
+                        <input type="email" id="email" data-i18n-placeholder="form_email_ph" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" data-i18n="form_phone">Phone / WhatsApp</label>
+                        <input type="tel" id="phone" data-i18n-placeholder="form_phone_ph" placeholder="+252..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-i18n="form_message">Your Inquiry</label>
+                        <textarea id="message" rows="4" data-i18n-placeholder="form_message_ph" placeholder="How can we help you?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary submit-btn"><i class="fa-brands fa-whatsapp"></i> <span data-i18n="form_btn">Send to WhatsApp</span></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo footer-logo">
+                    <div class="logo-icon">
+                        <i class="fa-solid fa-moon moon-icon"></i>
+                        <i class="fa-solid fa-graduation-cap cap-icon"></i>
+                    </div>
+                    <span class="logo-text">HILAAL</span>
+                </a>
+                <p class="footer-desc" data-i18n="footer_desc">Your trusted partner for international school placement, student recruitment, and visa guidance. Founded by Usama Khadar.</p>
+            </div>
+            <div class="footer-links">
+                <h4 data-i18n="footer_links_title">Quick Links</h4>
+                <ul>
+                    <li><a href="#home" data-i18n="nav_home">Home</a></li>
+                    <li><a href="#about" data-i18n="nav_about">About Us</a></li>
+                    <li><a href="#services" data-i18n="nav_services">Services</a></li>
+                    <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4 data-i18n="footer_social_title">Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="https://wa.me/601162355194" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="mailto:muscabkhadar69@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p data-i18n="footer_rights">&copy; 2026 Hilaal Education Consultancy. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Translation API then Custom JS -->
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
